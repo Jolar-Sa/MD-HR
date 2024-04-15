@@ -25,7 +25,6 @@ from models.MD_HR import *
 from torch.nn.parallel import DataParallel
 
 
-parser = argparse.ArgumentParser(description='Cross-Modality ReID CM-NAS Eval')
 # various path
 parser.add_argument('--data_root', type=str,default='/data/jolar/datasets/SYSU-MM01/', help='dataset root path')
 # parser.add_argument('--data_root', type=str,default='/media/root/383db294-dd0f-48cc-9f0e-74bb2866b792/zhoujiaqi/JOLAR/SYSU-MM01/', help='dataset root path')
